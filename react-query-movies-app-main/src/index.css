@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+  margin: 0;
+}
+
+body,
+#root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Comic Neue", cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

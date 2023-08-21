@@ -1,0 +1,36 @@
+@import '../css/variables.scss';
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+  margin-top: 20px;
+
+  div {
+    display: flex;
+    margin-bottom: 8px;
+
+    a {
+      margin: 0 10px;
+
+      button {
+        width: 100px;
+        height: 35px;
+        border-radius: 5px;
+        background-color: $poke-gray;
+        color: $poke-white-2;
+
+        &:active, &:hover {
+          background-color: $poke-gray-opacity;
+        }
+
+        &[disabled] {
+          opacity: 0.5;
+          background-color: $poke-gray;
+          cursor: initial;
+        }
+      }
+    }
+  }
+}

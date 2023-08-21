@@ -1,0 +1,44 @@
+@import '../css/variables.scss';
+
+aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+  padding: 20px 6px;
+  background-color: $poke-gray;
+  color: $poke-white-2;
+
+  img {
+    width: 48px;
+    height: 48px;
+  }
+
+  nav {
+    margin-top: 80px;
+
+    a {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 5px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+
+      &.active, &:hover {
+        background-color: $poke-white-2-opacity;
+      }
+
+      p {
+        display: none;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 640px) {
+    nav a p {
+      display: block;
+      padding-top: 3px;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.root {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: #000000;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    padding: 0.5rem 2rem;
+}
+
+.root .appLogo {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .root {
+        justify-content: center;
+    }
+
+    .backBtn {
+        position: absolute !important;
+        left: 0px;
+    }
+}

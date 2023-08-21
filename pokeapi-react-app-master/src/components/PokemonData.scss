@@ -1,0 +1,27 @@
+@import '../css/variables.scss';
+
+section {
+  background-color: $poke-white;
+  padding: 8px;
+  border: 1px solid $poke-gray;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+
+  &.heading {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+  }
+
+  img {
+    display: block;
+    width: 96px;
+    height: 96px;
+    margin: auto;
+  }
+
+  .title {
+    color: $poke-red;
+  }
+}

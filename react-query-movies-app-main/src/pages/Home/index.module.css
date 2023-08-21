@@ -1,0 +1,26 @@
+.root {
+  padding-top: 1rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.root>div {
+  display: flex;
+  justify-content: center;
+}
+
+.searchBox {
+  margin: 0rem 2rem;
+}
+
+.movieListContainer {
+  flex: 1;
+  padding: 2rem;
+}
+
+.errorMessageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
